@@ -1,0 +1,130 @@
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.potta-one-regular {
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: var(--tg-theme-text-colot);
+  background: var(--tg-theme-bg-color);
+}
+
+
+
+
+.continer {
+  color: #edff00;
+  background-color: black;
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.score{
+  z-index: 2;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.score img{
+  z-index: 2;
+  margin-bottom: 5px;
+  max-width: 9%;
+  max-height: 9%;
+}
+
+.coins {
+  max-width: 322px;
+  max-height: 322px;
+  border: none;
+
+  border-radius: 500px;
+}
+
+.coins img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.coins {
+  transition: transform 0.3s;
+}
+
+.enlarged {
+  transform: scale(1.05);
+}
+
+.btnc{
+  z-index: 1;
+  border: none;
+  border-radius: 500px;
+  box-shadow: rgba(255, 249, 0, 0.34) 0px 0px 60px 20px, rgba(255, 238, 3, 0.38) 0px 0px 60px 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-comtiner {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #eeff004b;
+  border-radius: 10px;
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+.item {
+  margin-top: 5px;
+}
+
+.button1 img{
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.button1 h6 {
+  color: rgba(255, 255, 255, 0.836);
+  margin-left: 5px;
+  font-size: small;
+}
+
+
+.button1 {
+  border: none;
+  background: none;
+}
+
+.names {
+  font-family: "Potta One", sans-serif; 
+  font-weight: 300;
+  font-style: normal;
+}
