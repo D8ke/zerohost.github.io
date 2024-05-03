@@ -17,7 +17,7 @@ body {
   font-size: 18px;
   color: var(--tg-theme-text-colot);
   background: var(--tg-theme-bg-color);
-  max-high: 100%;
+  max-height: 100%;
 }
 
 
