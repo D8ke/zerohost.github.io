@@ -19,12 +19,16 @@ body {
   background: var(--tg-theme-bg-color);
 }
 
+html, body {
+  height: 100%;
+}
 
 
 
 .continer {
   color: #edff00;
   background-color: black;
+  max-width: 390px;
   display: flex;
   flex-direction: column;
   text-align: center;
