@@ -6,7 +6,7 @@
 
 .potta-one-regular {
   font-family: "Potta One", system-ui;
-  font-weight: 400;
+  font-weight: 4000;
   font-style: normal;
 }
 
@@ -14,9 +14,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: 38px;
   color: var(--tg-theme-text-colot);
   background: var(--tg-theme-bg-color);
+  
 }
 
 html, body {
@@ -33,6 +34,8 @@ html, body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  min-height: 100%;
+
 }
 
 .score{
@@ -99,6 +102,8 @@ html, body {
   display: flex;
   text-align: center;
   align-items: center;
+  max-height: 100%;
+
   margin-top: 50px;
   background-color: #eeff004b;
   border-radius: 10px;
