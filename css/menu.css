@@ -13,13 +13,13 @@
 
 html, body {
   height: 100%;
+  color: #edff00;
+  background-color: black;
 }
 
 
 body {
   display: flex;
-  color: #edff00;
-  background-color: black;
   flex-direction: column;
   text-align: center;
   align-items: center;
