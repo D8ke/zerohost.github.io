@@ -18,6 +18,8 @@ html, body {
 
 body {
   display: flex;
+  color: #edff00;
+  background-color: black;
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -31,8 +33,6 @@ body {
 
 
 .continer {
-  color: #edff00;
-  background-color: black;
   max-width: 390px;
   display: flex;
   flex-direction: column;
