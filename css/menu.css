@@ -21,7 +21,7 @@ body {
 }
 
 html, body {
-  height: 100%;
+  
 }
 
 
@@ -53,8 +53,9 @@ html, body {
   max-width: 322px;
   max-height: 322px;
   border: none;
-
   border-radius: 500px;
+  margin-top: 30%;
+  box-shadow: rgba(255, 249, 0, 0.34) 0px 0px 60px 20px, rgba(255, 238, 3, 0.38) 0px 0px 60px 20px;
 }
 
 .coins img {
@@ -74,8 +75,8 @@ html, body {
   z-index: 1;
   border: none;
   border-radius: 500px;
-  box-shadow: rgba(255, 249, 0, 0.34) 0px 0px 60px 20px, rgba(255, 238, 3, 0.38) 0px 0px 60px 20px;
-  margin-bottom: 20px;
+
+  margin-bottom: 100px;
 }
 
 
